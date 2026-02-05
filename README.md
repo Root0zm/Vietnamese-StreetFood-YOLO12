@@ -5,15 +5,15 @@
 [![License](https://img.shields.io/badge/License-MIT-yellow)](LICENSE)
 
 This repository contains the official PyTorch implementation and pre-trained weights for the paper:
-[cite_start]**"A Real-Time Smart Service Framework for Vietnamese Cuisine: Integrating YOLOv12 and Semantic Synthesis for Automated Digital Menus"**[cite: 2].
+**"A Real-Time Smart Service Framework for Vietnamese Cuisine: Integrating YOLOv12 and Semantic Synthesis for Automated Digital Menus"**.
 
-[cite_start]The model is fine-tuned to detect **14 popular Vietnamese dishes** with high accuracy and real-time performance, suitable for edge deployment in smart restaurant systems[cite: 8].
+The model is fine-tuned to detect **14 popular Vietnamese dishes** with high accuracy and real-time performance, suitable for edge deployment in smart restaurant systems.
 
-![Demo](assets/demo.jpg)
+
 
 ## Performance 
 
-[cite_start]The model achieves state-of-the-art performance on the collected Vietnamese Food dataset[cite: 7, 115]:
+The model achieves state-of-the-art performance on the collected Vietnamese Food dataset:
 
 | Metric | Value | Note |
 | :--- | :--- | :--- |
@@ -23,10 +23,10 @@ This repository contains the official PyTorch implementation and pre-trained wei
 | **Model Size** | YOLOv12m | Optimized for balance |
 
 ![PR Curve](assets/pr_curve.png)
-[cite_start]*Figure: Precision-Recall Curve for 14 classes[cite: 114].*
+*Figure: Precision-Recall Curve for 14 classes.*
 
 ## 🍲 Supported Classes (14 Class)
-[cite_start]The model can identify the following dishes[cite: 6]:
+The model can identify the following dishes:
 1. Steamed Rice Rolls (Bánh cuốn)
 2. Vietnamese pyramid rice dumpling (Bánh giò)
 3. Grilled Pork Banh Mi (Bánh mì)
