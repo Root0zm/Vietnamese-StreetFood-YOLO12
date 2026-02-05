@@ -9,7 +9,7 @@ This repository contains the official PyTorch implementation and pre-trained wei
 
 [cite_start]The model is fine-tuned to detect **14 popular Vietnamese dishes** with high accuracy and real-time performance, suitable for edge deployment in smart restaurant systems[cite: 8].
 
-![Demo](assets/demo_inference.jpg)
+![Demo](assets/demo.jpg)
 
 ## Performance 
 
