@@ -23,7 +23,7 @@ The model achieves state-of-the-art performance on the collected Vietnamese Food
 | **Model Size** | YOLOv12m | Optimized for balance |
 
 ![PR Curve](assets/pr_curve.jpg)
-*Figure: Precision-Recall Curve for 14 classes.*
+* Precision-Recall Curve for 14 classes.*
 
 ## 🍲 Supported Classes (14 Class)
 The model can identify the following dishes:
@@ -61,4 +61,29 @@ results[0].show()
 ## DATASET
 The dataset used for training is available in a separate repository/link: [https://github.com/Root0zm/Vietnamese-StreetFood-Dataset]
 
+## Training Configuration
+
+To reproduce our results, we fine-tuned the YOLOv12m model using the following hyperparameters.
+The training was conducted on an NVIDIA T4 GPU for 100 epochs using the AdamW optimizer.
+
+### Training Command (CLI)
+
+```bash
+yolo train \
+model='yolo12l.pt' \
+data={dataset.location}/data.yaml \
+epochs=100 \
+patience=10 \
+batch=12 \
+imgsz=640 \
+optimizer='AdamW' \
+lr0=1e-5 \
+project='runs/train' \
+name='yolov12m' \
+mosaic=1.0 \
+mixup=0.1 \
+degrees=90 \
+translate=0.1 \
+scale=0.5 \
+flipud=0.5
 
