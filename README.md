@@ -22,7 +22,7 @@ The model achieves state-of-the-art performance on the collected Vietnamese Food
 | **Inference Time** | **15.6 ms** | ~64 FPS on NVIDIA T4 (Real-time) |
 | **Model Size** | YOLOv12m | Optimized for balance |
 
-![PR Curve](assets/pr_curve.png)
+![PR Curve](assets/pr_curve.jpg)
 *Figure: Precision-Recall Curve for 14 classes.*
 
 ## 🍲 Supported Classes (14 Class)
