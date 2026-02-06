@@ -9,7 +9,7 @@ This repository contains the official PyTorch implementation and pre-trained wei
 
 The model is fine-tuned to detect **14 popular Vietnamese dishes** with high accuracy and real-time performance, suitable for edge deployment in smart restaurant systems.
 
-
+This model supports the **Real-Time Smart Service Framework** described in **[[1]](#reference-1)** for automatically recognizing Vietnamese dishes.
 
 ## Performance 
 
@@ -86,4 +86,8 @@ degrees=90 \
 translate=0.1 \
 scale=0.5 \
 flipud=0.5
+```
+### References
 
+* <a id="reference-1"></a>**[1]** **A Real-Time Smart Service Framework for Vietnamese Cuisine: Integrating YOLOv12 and Semantic Synthesis for Automated Digital Menus**.  
+  [https://drive.google.com/file/d/1Wz_Vb2SyJRiSeEEd3hpl84dl1yNImG9Z/view?usp=sharing]
